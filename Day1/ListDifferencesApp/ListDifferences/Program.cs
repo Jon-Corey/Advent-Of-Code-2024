@@ -1,6 +1,4 @@
-﻿// Get input file path
-Console.Write("Input File Path: ");
-string filePath = Console.ReadLine();
+﻿string filePath = "C:\\Git\\Advent-Of-Code-2024\\Day2\\input.txt";
 
 if(File.Exists(filePath) == false)
 {
